@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from PIL import Image
 from classifier import predict_image
+import os
 
 app = Flask(__name__)
 
@@ -23,5 +24,4 @@ def index():
 
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port, debug=True)
+    app.run(debug=True)
