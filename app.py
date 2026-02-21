@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 from PIL import Image
 from classifier import predict_image
-import os
+
 
 app = Flask(__name__)
 
