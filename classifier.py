@@ -21,9 +21,6 @@ def predict_image(image):
     prediction = model.predict(processed_image)
     probability = float(prediction[0][0])
 
-    print(f"! DEBUG ! Raw prediction: {prediction}")
-    print(f"! DEBUG ! Probability: {probability}")
-
     if probability > 0.5:
         predicted_class = class_names[1]
         confidence = probability

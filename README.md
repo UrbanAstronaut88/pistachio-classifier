@@ -1,5 +1,8 @@
 # Pistachio Image Classification
 
+# Check it out: https://pistachio-classifier.onrender.com/
+
+
 This project is a **Deep Learning image classifier** built with **TensorFlow** and a user-friendly **Flask web interface**. The model classifies pistachio images into two categories:
 
 - **Kirmizi Pistachio**  
@@ -17,7 +20,7 @@ This dataset was used for training and evaluation:
 https://www.kaggle.com/datasets/muratkokludataset/pistachio-image-dataset
 ![img_1.png](static/screenshot_images/img_1.png)
 
-> ⚠ The dataset is *not included* in this repository due to size limits — only the trained model is included.
+> The dataset is *not included* in this repository due to size limits — only the trained model is included.
 
 ---
 
